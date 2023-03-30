@@ -10,7 +10,7 @@ class TextInput:
     RETURN_TYPES = ("TEXT",)
     FUNCTION = "inputtext"
 
-    CATEGORY = "TextNode"
+    CATEGORY = "conditioning"
 
     def inputtext(self, text):
         return (text,)

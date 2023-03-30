@@ -6,7 +6,7 @@ class CLIPTextEncodeWithTextInput:
     RETURN_TYPES = ("CONDITIONING",)
     FUNCTION = "encode_wtext"
 
-    CATEGORY = "TextNode"
+    CATEGORY = "conditioning"
 
     def encode_wtext(self, clip, text):
         return ([[clip.encode(text), {}]], )
